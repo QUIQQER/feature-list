@@ -27,10 +27,6 @@
     background: #f8f8f8;
 }
 
-li:last-child .feature-list-category-list-entry {
-    margin-bottom: 4rem;
-}
-
 .feature-list-category-list-entry-icon {
     margin-right: 2rem;
     align-items: flex-start;
@@ -50,8 +46,11 @@ li:last-child .feature-list-category-list-entry {
     font-weight: normal;
 }
 
-.feature-list-category-list-entry-icon-content-toTop {
-    float: right;
+.feature-list-category-list-toTop-container {
+    text-align: right;
+    margin: 1rem 0 3rem;
+}
+
+.feature-list-category-list-toTop {
     color: inherit;
-    margin-top: 1rem;
 }

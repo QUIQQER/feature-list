@@ -50,16 +50,18 @@
                             {$Feature->getAttribute('content')}
                         </div>
                         {/if}
-
-                        <a href="#top" class="feature-list-category-list-entry-icon-content-toTop">
-                            {locale group="quiqqer/feature-list" value="link.to.top"}
-                        </a>
                     </div>
 
                 </article>
             </li>
             {/foreach}
         </ul>
+
+        <div class="feature-list-category-list-toTop-container">
+            <a href="#top" class="feature-list-category-list-toTop">
+                {locale group="quiqqer/feature-list" value="link.to.top"}
+            </a>
+        </div>
         {/if}
 
     </section>
