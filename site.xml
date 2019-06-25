@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+
+    <types>
+        <type type="types/list" icon="fa fa-list-alt">
+            <locale group="quiqqer/feature-list" var="admin.types.faq.list"/>
+            <desc>
+                <locale group="quiqqer/feature-list" var="admin.types.faq.list.desc"/>
+            </desc>
+        </type>
+
+        <type type="types/category" icon="fa fa-question-circle">
+            <locale group="quiqqer/feature-list" var="admin.types.faq.category"/>
+            <desc>
+                <locale group="quiqqer/feature-list" var="admin.types.faq.category.desc"/>
+            </desc>
+        </type>
+
+        <type type="types/entry" icon="fa fa-question">
+            <locale group="quiqqer/feature-list" var="admin.types.faq.entry"/>
+            <desc>
+                <locale group="quiqqer/feature-list" var="admin.types.faq.entry.desc"/>
+            </desc>
+        </type>
+    </types>
+
+</site>
