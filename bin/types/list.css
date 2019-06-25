@@ -22,6 +22,9 @@
     display: flex;
     margin-bottom: 0.75rem;
     position: relative;
+    background: #f8f8f8;
+    border-radius: 10px;
+    padding: 0.75rem;
 }
 
 .feature-list-category-list-entry-icon {
@@ -30,15 +33,11 @@
 }
 
 .feature-list-category-list-entry-icon .fa {
-    padding-top: 0.75rem;
     font-size: 1.25rem;
 }
 
 .feature-list-category-list-entry-icon-content {
     flex-grow: 1;
-    background: #f8f8f8;
-    border-radius: 10px;
-    padding: 0.75rem;
 }
 
 .feature-list-category-list-entry-icon-content-header {
