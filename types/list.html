@@ -1,0 +1,64 @@
+{if $Template->getAttribute('content-body') && $Site->getAttribute('content')}
+<section class="content-body">
+    {$Site->getAttribute('content')}
+</section>
+{/if}
+
+<div class="content-template feature-list">
+
+    {foreach from=$categories item=Category}
+
+    <section class="feature-list-category" itemscope
+             itemtype="http://schema.org/ItemList">
+        <header class="feature-list-category-header">
+            <h2>
+                <span itemprop="name">{$Category->getAttribute('title')}</span>
+            </h2>
+        </header>
+
+        <div class="feature-list-category-short">
+            {$Category->getAttribute('short')}
+        </div>
+
+        {assign var=featureList value=$Category->getChildren()}
+        {if count($featureList)}
+        <ul itemscope itemtype="http://schema.org/ItemList" class="feature-list-category-list">
+            {assign var=position value=1}
+            {foreach $featureList as $Feature}
+            <li itemscope itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+                <article id="feature{$Feature->getId()}" class="feature-list-category-list-entry">
+
+                    <div class="feature-list-category-list-entry-icon">
+                        <span class="fa fa-check"></span>
+                    </div>
+                    <div class="feature-list-category-list-entry-icon-content">
+                        <header class="feature-list-category-list-entry-icon-content-header">
+                            <h2>{$Feature->getAttribute('title')}</h2>
+                        </header>
+
+                        {if $Feature->getAttribute('short')}
+                        <div class="feature-list-category-list-entry-icon-content-short">
+                            {$Feature->getAttribute('short')|nl2br}
+                        </div>
+                        {/if}
+
+                        {if $Feature->getAttribute('content')}}
+                        <div class="feature-list-category-list-entry-icon-content-content">
+                            {$Feature->getAttribute('content')}
+                        </div>
+                        {/if}
+
+                        <a href="#top" class="feature-list-category-list-entry-icon-content-toTop">
+                            {locale group="quiqqer/feature-list" value="link.to.top"}
+                        </a>
+                    </div>
+
+                </article>
+            </li>
+            {/foreach}
+        </ul>
+        {/if}
+
+    </section>
+    {/foreach}
+</div>

@@ -6,7 +6,7 @@
             <en><![CDATA[QUIQQER: Feature List]]></en>
         </locale>
         <locale name="package.description">
-            <de><![CDATA[Mit Feature List ist es einfach Feature Listen für Ihre Benutzer anzulegen. ]]></de>
+            <de><![CDATA[Mit Feature List ist es einfach Feature Listen für Ihre Benutzer anzulegen.]]></de>
             <en><![CDATA[With the Feature List types it is easy to create Feature Lists for your users.]]></en>
         </locale>
         <locale name="quiqqer/feature-list:types/list">
@@ -29,6 +29,9 @@
     </groups>
 
     <groups name="quiqqer/feature-list" datatype="php">
-
+        <locale name="link.to.top" html="true">
+            <de><![CDATA[Nach oben <span class="fa fa-fw fa-level-up"></span>]]></de>
+            <en><![CDATA[To the top <span class="fa fa-fw fa-level-up"></span>]]></en>
+        </locale>
     </groups>
 </locales>
