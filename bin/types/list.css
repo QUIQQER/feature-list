@@ -22,7 +22,7 @@
     display: flex;
     margin-bottom: 0.75rem;
     border-radius: 10px;
-    padding: 1rem 1rem;
+    padding: 0.75rem;
     position: relative;
     background: #f8f8f8;
 }
@@ -55,6 +55,11 @@
     font-size: 0.8rem;
     line-height: 1.2rem;
     margin-bottom: 0.3rem;
+}
+
+.feature-list-category-list-entry-icon-content-content:last-child,
+.feature-list-category-list-entry-icon-content-short:last-child {
+    margin-bottom: 0;
 }
 
 .feature-list-category-list-entry-icon-content-content p,
