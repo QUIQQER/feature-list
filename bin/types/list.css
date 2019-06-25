@@ -21,11 +21,10 @@
 .feature-list-category-list-entry {
     display: flex;
     margin-bottom: 2rem;
-    border: 2px solid #ccc;
     border-radius: 10px;
     padding: 1rem 1rem;
     position: relative;
-    overflow: hidden;
+    background: #f8f8f8;
 }
 
 li:last-child .feature-list-category-list-entry {
@@ -33,24 +32,13 @@ li:last-child .feature-list-category-list-entry {
 }
 
 .feature-list-category-list-entry-icon {
-    margin-right: 3rem;
+    margin-right: 2rem;
     align-items: flex-start;
 }
 
 .feature-list-category-list-entry-icon .fa {
-    background: #67b2a7;
-    color: #fff;
-    padding: 10px;
-    border-bottom-right-radius: 50%;
+    padding: 3px 10px 10px;
     font-size: 1.5rem;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: #ccc;
-    color: #67b2a7;
-    background: none;
-    border-bottom: 2px solid #ccc;
-    border-right: 2px solid #ccc;
 }
 
 .feature-list-category-list-entry-icon-content {
@@ -64,4 +52,6 @@ li:last-child .feature-list-category-list-entry {
 
 .feature-list-category-list-entry-icon-content-toTop {
     float: right;
+    color: inherit;
+    margin-top: 1rem;
 }
