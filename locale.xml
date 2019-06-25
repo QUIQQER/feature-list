@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <locales>
-    <groups name="quiqqer/faq" datatype="php,js ">
+    <groups name="quiqqer/faq" datatype="php,js">
         <locale name="package.title">
             <de><![CDATA[QUIQQER - Feature List]]></de>
             <en><![CDATA[QUIQQER: Feature List]]></en>
@@ -12,6 +12,21 @@
         <locale name="quiqqer/feature-list:types/list">
             <de><![CDATA[Feature List]]></de>
             <en><![CDATA[Feature List]]></en>
+        </locale>
+    </groups>
+
+    <groups name="quiqqer/faq" datatype="php">
+        <locale name="admin.types.faq.list">
+            <de><![CDATA[Feature List]]></de>
+            <en><![CDATA[Feature List]]></en>
+        </locale>
+        <locale name="admin.types.faq.category">
+            <de><![CDATA[Feature Kategorie]]></de>
+            <en><![CDATA[Feature Category]]></en>
+        </locale>
+        <locale name="admin.types.faq.entry">
+            <de><![CDATA[Feature Eintrag]]></de>
+            <en><![CDATA[Feature Entry]]></en>
         </locale>
     </groups>
 </locales>
