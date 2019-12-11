@@ -1,26 +1,25 @@
 {
-  "name": "quiqqer/feature-list",
-  "type": "quiqqer-module",
-  "description": "",
-  "version": "dev-master",
-  "license": "GPL-2.0+",
-  "authors": [
-    {
-      "name": "Henning Leutz",
-      "email": "leutz@pcsg.de",
-      "homepage": "http://www.pcsg.de",
-      "role": "Developer"
+    "name": "quiqqer\/feature-list",
+    "type": "quiqqer-module",
+    "description": "",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Henning Leutz",
+            "email": "leutz@pcsg.de",
+            "homepage": "http:\/\/www.pcsg.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@pcsg.de"
+    },
+    "require": {
+        "quiqqer\/quiqqer": "*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "QUI\\FeatureList\\": "src\/QUI\/FeatureList"
+        }
     }
-  ],
-  "support": {
-    "email": "support@pcsg.de"
-  },
-  "require": {
-    "quiqqer/quiqqer": "*@dev"
-  },
-  "autoload": {
-    "psr-4": {
-      "QUI\\FeatureList\\": "src/QUI/FeatureList"
-    }
-  }
 }
