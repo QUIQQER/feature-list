@@ -1,9 +1,9 @@
 <?php
 
-$categories = $Site->getChildren(array(
+$categories = $Site->getChildren([
     'type' => 'quiqqer/features:types/category'
-));
+]);
 
-$Engine->assign(array(
+$Engine->assign([
     'categories' => $categories
-));
+]);

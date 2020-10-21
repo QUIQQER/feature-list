@@ -1,9 +1,5 @@
 <?php
 
-/**
- * This file contains \QUI\FeatureList\EventsHandler
- */
-
 namespace QUI\FeatureList;
 
 use QUI;
@@ -16,6 +12,10 @@ use QUI\Projects\Site\Edit;
  */
 class EventsHandler
 {
+    const SITE_TYPE_LIST     = 'quiqqer/feature-list:types/list';
+    const SITE_TYPE_CATEGORY = 'quiqqer/feature-list:types/category';
+    const SITE_TYPE_ENTRY    = 'quiqqer/feature-list:types/entry';
+
     /**
      * event on child create
      *
